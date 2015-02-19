@@ -9,3 +9,13 @@ two:
   name: MyString
   email: MyString
   password_digest: MyString
+
+thing1:
+  name: one
+  email: ones@one.com
+  password_digest: one
+
+thing2:
+  name: two
+  email: shakespeare@example.com
+  password_digest: two

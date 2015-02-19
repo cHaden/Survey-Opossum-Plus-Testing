@@ -9,3 +9,16 @@ two:
   title: MyString
   description: MyText
   author_id: 1
+
+  # fixtures come up at 47:00 in video
+  # let's write one or two
+
+survey_thing:
+  title: Super Awesome Goat Survey
+  description: It's Super Awesome
+  author_id: 1
+
+another_survey:
+  title: This Survey Follows Another Chronologically
+  description: ...and how!
+  author_id: 1
