@@ -2,6 +2,18 @@ class AuthorsController < ApplicationController
   before_action :set_author, only: [:show, :edit, :update]
   before_action :logged_in?, except: [:new, :create]
 
+
+# completely arbitrary slime bonanza
+# see 1:58 in video
+  def template
+    render "edit"
+  end
+
+# completely arbitrary slime bonanza
+  def redirect
+    redirect_to sessions_log_in_path
+  end
+
   def index
     @authors = Author.all
   end

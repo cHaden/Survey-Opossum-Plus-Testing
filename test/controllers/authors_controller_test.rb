@@ -12,5 +12,18 @@ class AuthorsControllerTest < ActionController::TestCase
 
   end
 
+  #7. that an expected template is rendered (broken)
+  test "template rendered" do
+    get :template
+    # assert_response :success
+
+    assert_template edit_author_path
+  end
+
+  #8. that an expected redirect actually occurs
+  test "redirect as planned" do
+    get :redirect
+    assert_redirected_to sessions_log_in_path
+  end
 
 end
